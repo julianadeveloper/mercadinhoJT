@@ -18,12 +18,14 @@ input {
   height: 3rem;
   width: 20rem;
   outline: none;
+border-radius: 25px;
 }
 .busca {
   display: flex;
   padding: 1rem;
 } 
 button{
+  border-radius: 50%;
   margin-left: 2px;
   color:rgb(207, 48, 48);
   cursor:pointer;
