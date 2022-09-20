@@ -1,14 +1,18 @@
 <template>
   <div class="container">
-
+    <CardItem />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import CardItem from "@/components/CardItem.vue";
 
 export default defineComponent({
   name: "WellcomeUser",
+  components: {
+    CardItem,
+  },
 });
 </script>
 

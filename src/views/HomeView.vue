@@ -1,19 +1,24 @@
 <template>
-  
   <div class="home">
     <Nav></Nav>
-    <Home/>
+    <Home />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import Home from '@/components/Home.vue'; // @ is an alias to /src
-import Nav from "@/components/Nav.vue"
+import { defineComponent } from "vue";
+import Home from "@/components/Home.vue"; // @ is an alias to /src
+import Nav from "@/components/Nav.vue";
 export default defineComponent({
-  name: 'HomeView',
+  name: "HomeView",
   components: {
     Home,
-    Nav  },
+    Nav,
+  },
 });
 </script>
+<style scoped>
+.home {
+  position: absolute;
+}
+</style>

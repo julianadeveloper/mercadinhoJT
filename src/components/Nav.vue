@@ -27,6 +27,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.nav-container {
+  position: relative;
+}
 .nav {
   display: flex;
   align-items: center;
